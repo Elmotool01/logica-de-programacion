@@ -10,7 +10,7 @@ En la era digital actual, la seguridad de las contraseñas es más crítica que 
 
 Este repositorio contiene los siguientes elementos clave:
 
-*   **`pgcs_1.py` (Código Prototipo del Generador de Contraseñas Seguro):** Este archivo contiene el código fuente principal del proyecto, implementando tanto la generación de contraseñas como el componente de aprendizaje autónomo.  Está diseñado para ser modular y extensible, permitiendo futuras mejoras y adaptaciones.  Este código es la base de ElmoTool01 y demuestra la funcionalidad principal del sistema.
+*   **`generador de contra;as seguras.py` (Código Prototipo del Generador de Contraseñas Seguro):** Este archivo contiene el código fuente principal del proyecto, implementando tanto la generación de contraseñas como el componente de aprendizaje autónomo.  Está diseñado para ser modular y extensible, permitiendo futuras mejoras y adaptaciones.  Este código es la base de ElmoTool01 y demuestra la funcionalidad principal del sistema.https://github.com/Elmotool01/logica-de-programacion/blob/main/generador%20de%20contrase%3Bas%20seguras.py
 
 *   **Diagrama de Flujo Inicial:** Este diagrama representa la arquitectura básica del generador de contraseñas, mostrando los pasos fundamentales para la creación de claves seguras.  Proporciona una visión general del proceso de generación de contraseñas. (https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas.pdf)
 
