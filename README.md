@@ -12,9 +12,9 @@ Este repositorio contiene los siguientes elementos clave:
 
 *   **`pgcs_1.py` (Código Prototipo del Generador de Contraseñas Seguro):** Este archivo contiene el código fuente principal del proyecto, implementando tanto la generación de contraseñas como el componente de aprendizaje autónomo.  Está diseñado para ser modular y extensible, permitiendo futuras mejoras y adaptaciones.  Este código es la base de ElmoTool01 y demuestra la funcionalidad principal del sistema.
 
-*   **Diagrama de Flujo Inicial:** Este diagrama representa la arquitectura básica del generador de contraseñas, mostrando los pasos fundamentales para la creación de claves seguras.  Proporciona una visión general del proceso de generación de contraseñas.  [Enlace al diagrama de flujo inicial] (inserta aquí la ruta relativa al archivo del diagrama, ejemplo: `./diagramas/flujo_inicial.png`)
+*   **Diagrama de Flujo Inicial:** Este diagrama representa la arquitectura básica del generador de contraseñas, mostrando los pasos fundamentales para la creación de claves seguras.  Proporciona una visión general del proceso de generación de contraseñas. (https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas.pdf)
 
-*   **Diagrama de Flujo del Aprendizaje Autónomo 2:** Este diagrama ilustra el componente de aprendizaje autónomo del proyecto. Describe cómo el sistema recopila datos, aprende patrones y ajusta sus algoritmos para mejorar la seguridad de las contraseñas generadas.  Muestra cómo el sistema evoluciona y se adapta con el tiempo. [Enlace al diagrama de flujo de aprendizaje autónomo] (inserta aquí la ruta relativa al archivo del diagrama, ejemplo: `./diagramas/flujo_aprendizaje_2.svg`)
+*   **Diagrama de Flujo del Aprendizaje Autónomo 2:** Este diagrama ilustra el componente de aprendizaje autónomo del proyecto. Describe cómo el sistema recopila datos, aprende patrones y ajusta sus algoritmos para mejorar la seguridad de las contraseñas generadas.  Muestra cómo el sistema evoluciona y se adapta con el tiempo.(https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas%20generador%20seguro%20de%20contrase%C3%B1as%20aprendizaje%20autonomo%202%20Francisco%20mart%C3%ADnez.pdf)
 
 ## Características Clave
 
