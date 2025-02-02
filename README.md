@@ -39,7 +39,7 @@ El repositorio se organiza en las siguientes carpetas principales:
 
 Aquí se muestran algunas imágenes del entorno de programación utilizado durante el desarrollo del proyecto:
 
-*   [Configuración del Entorno]([imagenes/configuracion_entorno.png](https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance%20primera%20prueba.jpg)) -  Captura de pantalla de la configuración del entorno, incluyendo versiones de lenguajes, bibliotecas y dependencias.
+*  (https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance%20primera%20prueba.jpg)) -  Captura de pantalla de la configuración del entorno, incluyendo versiones de lenguajes, bibliotecas y dependencias.
 *   (https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance.jpg) - Ejemplo de la interfaz de usuario del programa generador de contraseñas, mostrando las opciones de configuración y la presentación de la contraseña generada.
 
 ## Cómo Usar Este Repositorio
