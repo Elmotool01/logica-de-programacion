@@ -8,7 +8,7 @@ El repositorio se estructura de la siguiente manera:
 
 *   **Generación de Contraseñas Seguras:**
 
-*   [Diagrama: Algoritmo de Aprendizaje Inicial](diagramas/aprendizaje_autonomo_1/diagrama2.svg) - Este diagrama describe el algoritmo inicial utilizado para el aprendizaje y adaptación del sistema, mostrando los pasos para identificar patrones y ajustar los parámetros de generación de contraseñas.
+*   [Diagrama: Algoritmo de Aprendizaje Inicial]([diagramas/aprendizaje_autonomo_1/diagrama2.svg](https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas.pdf)) - Este diagrama describe el algoritmo inicial utilizado para el aprendizaje y adaptación del sistema, mostrando los pasos para identificar patrones y ajustar los parámetros de generación de contraseñas.
 
     *   **Diagramas del Aprendizaje Autónomo 2:** Estos diagramas de flujo representan una versión más avanzada y refinada del sistema de aprendizaje autónomo.  Detallan la lógica de aprendizaje, la recopilación de datos, el análisis de patrones complejos y la adaptación del sistema a nuevas amenazas y técnicas de cracking.  Se incluyen estrategias para la mejora continua del sistema. https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas%20generador%20seguro%20de%20contrase%C3%B1as%20aprendizaje%20autonomo%202%20Francisco%20mart%C3%ADnez.pdf
 
