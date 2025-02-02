@@ -40,7 +40,7 @@ Los próximos pasos incluyen la optimización del código, la implementación de
 
 ## Licencia
 
-Este proyecto se encuentra bajo la licencia [Nombre de la Licencia].
+Este proyecto se encuentra bajo la licencia [Open surce].
 
 ## Contacto
 
