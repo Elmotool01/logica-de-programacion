@@ -33,7 +33,7 @@ El repositorio se organiza en las siguientes carpetas principales:
 *   `diagramas/`: Contiene los diagramas de flujo en diferentes formatos (PNG, SVG, Drawio, PDF).
 *   `codigo/`: Contiene el código fuente de los diferentes prototipos del generador de contraseñas.
 *   `imagenes/`:  Contiene imágenes del entorno de programación utilizado, incluyendo ejemplos de la interfaz de usuario (si existe), configuración del entorno y herramientas utilizadas.  Esta carpeta ayuda a visualizar el contexto de desarrollo.
-*   `documentacion/`: (Opcional) Contiene documentación adicional sobre el proyecto, como informes, manuales de usuario, etc.
+*   `documentacion/`: Contiene documentación adicional sobre el proyecto, como informes, manuales de usuario, que se actualizaran segun se avance el proyecto etc.
 
 ## Imágenes del Entorno de Programación
 
