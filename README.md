@@ -55,7 +55,7 @@ Las contribuciones son bienvenidas. Si deseas colaborar con este proyecto, por f
 
 ## Licencia
 
-(Incluir la información de la licencia, por ejemplo: Este proyecto se distribuye bajo la licencia MIT.)
+Este proyecto es de codigo libre.
 
 ## Contacto
 
