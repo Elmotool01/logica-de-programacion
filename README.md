@@ -19,8 +19,10 @@ Este generador de contraseñas ha sido mejorado significativamente respecto a ve
 
 Este repositorio contiene los siguientes archivos principales:
 
-* `generador_contraseñas.py`: Código principal del generador de contraseñas (CLI).
+* `generador_contraseñas version final.py`: Código principal del generador de contraseñas (CLI).
+* * `diagramas de flujo. pdf`: diagrmas de desarrollo del programa (PDF).
 * `generador_contraseñas_gui.py` (opcional): Interfaz gráfica de usuario.
+* * `presentación del proyecto.ppt `: Presnetación del proyecto final del generador seguro de contraseñas (PPT).
 * `requirements.txt` (opcional): Lista de dependencias del proyecto.
 * `README.md`: Documentación del proyecto.
 
@@ -29,7 +31,9 @@ Este repositorio contiene los siguientes archivos principales:
 * **Generación de contraseñas altamente aleatorias:** Utiliza el módulo `secrets` de Python para generar números pseudoaleatorios criptográficamente seguros (CSPRNG). Enlace a la libreria: [secrets — Generating secure random numbers for managing secrets — Python 3.12.2 documentation](https://docs.python.org/3/library/secrets.html)
 * **Personalización de la longitud y los caracteres:** Permite al usuario especificar la longitud de la contraseña y los tipos de caracteres que desea incluir (mayúsculas, minúsculas, números, símbolos, caracteres unicode).
 * **Verificación de la fortaleza de la contraseña:** Implementa una función que evalúa la fortaleza de la contraseña generada, proporcionando información sobre su entropía y resistencia a ataques de fuerza bruta.
-* **Interfaz de línea de comandos (CLI) y GUI (opcional):** Ofrece una interfaz de línea de comandos para una generación rápida de contraseñas, y opcionalmente, una interfaz gráfica de usuario para mayor comodidad.
+* **Interfaz de línea de comandos (CLI) y GUI (opcional):**
+    * La interfaz grafica fue realizada con la libreria Tkinter. Documentacion de la libreria: [Tkinter 8.6 reference: a GUI for Python — Python documentation](https://docs.python.org/3/library/tkinter.html)
+    * Ofrece una interfaz de línea de comandos para una generación rápida de contraseñas, y opcionalmente, una interfaz gráfica de usuario para mayor comodidad.
 * **Generación de contraseñas múltiples:** Capacidad para generar múltiples contraseñas a la vez.
 * **Opción de exclusión de caracteres similares:** Para una mayor seguridad y para evitar la confusión del usuario final, se ha implementado la opción de excluir caracteres similares como la letra "l" minúscula, la letra "I" mayúscula y el número "1". O la letra "O" mayúscula y el número "0".
 * **Almacenamiento seguro de contraseñas (opcional):** (Si se incluye) Permite al usuario almacenar las contraseñas generadas de forma segura, utilizando técnicas de cifrado robustas.
@@ -82,4 +86,4 @@ Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, puedes envi
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [Nombre de la licencia].
+Este proyecto se desarrollo en codigo libre.
