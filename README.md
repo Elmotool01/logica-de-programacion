@@ -70,8 +70,8 @@ python generador\_contraseñas.py -l 16 -c mayusculas minusculas numeros simbolo
 
 1.  Clonar el repositorio:
 
-    \`\`\`bash
-    git clone [https://github.com/theodelrieu?tab=repositories](https://github.com/theodelrieu?tab=repositories)
+ \`\`\`bash
+    git clone [https://github.com/Elmotool01/logica-de-programacion](https://github.com/Elmotool01/logica-de-programacion)
     \`\`\`
 
 2.  (Opcional) Instalar las dependencias:
