@@ -57,7 +57,7 @@ python generador\_contraseñas.py -l 16 -c mayusculas minusculas numeros simbolo
 
 ### GUI (opcional)
 
-1.  Ejecutar el archivo `generador_contraseñas_gui.py`.
+1.  Ejecutar el archivo `generador_contraseñas version final.py`.
 2.  Configurar la longitud y los caracteres deseados.
 3.  Hacer clic en "Generar".
 
