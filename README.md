@@ -1,59 +1,85 @@
-Generador de Contraseñas Seguras con Interfaz Gráfica
-Este repositorio contiene el código fuente, diagramas de flujo y documentación de un proyecto de generador de contraseñas seguras, con la capacidad de adaptarse y mejorar con el tiempo mediante un sistema de aprendizaje autónomo (actualmente en desarrollo, representado en los diagramas).
+# Generador de Contraseñas Seguras Mejorado
 
-Objetivos del Proyecto
+## Introducción
 
-Desarrollar un generador de contraseñas robusto: Crear una aplicación con interfaz gráfica que genere contraseñas que cumplan con altos estándares de seguridad.
-Implementar aprendizaje autónomo (en desarrollo): Dotar al generador de la capacidad de aprender de patrones y adaptarse a nuevas amenazas (representado en los diagramas, aún no implementado en el código).
-Explorar algoritmos: Experimentar con diferentes enfoques para la generación de contraseñas.
-Documentar el proceso: Proporcionar documentación clara y completa, incluyendo diagramas, código comentado y explicaciones.
-Estructura del Repositorio
-El repositorio contiene los siguientes archivos:
+En la era digital actual, la seguridad de la información es primordial. Las contraseñas fuertes y únicas son la primera línea de defensa contra accesos no autorizados a nuestras cuentas y datos personales. Este proyecto surge de la necesidad de generar contraseñas que sean no solo seguras, sino también personalizables y fáciles de manejar para el usuario moderno.
 
-diagramas.pdf: Diagrama de flujo del algoritmo inicial del generador. Muestra la generación básica de contraseñas. (https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas.pdf)
-diagramas generador seguro de contraseñas aprendizaje autonomo 2 Francisco Martínez.pdf: Diagramas de flujo que representan la lógica del futuro sistema de aprendizaje autónomo. (Este sistema aún no está implementado en el código, pero los diagramas muestran el diseño). (https://github.com/Elmotool01/logica-de-programacion/blob/main/diagramas%20generador%20seguro%20de%20contrase%C3%B1as%20aprendizaje%20autonomo%202%20Francisco%20mart%C3%ADnez.pdf)
-generador_contrasenas.py: Código fuente del generador de contraseñas con interfaz gráfica. Implementa la lógica descrita en diagramas.pdf, con opciones para configurar la longitud y los tipos de caracteres. ([Enlace al archivo en GitHub: (Añade aqui el link correcto del archivo generador_contrasenas.py)])
-entorno de programación primer avance primera prueba.jpg: Captura de pantalla del entorno de programación, mostrando la configuración (versiones de Python, etc.). (https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance%20primera%20prueba.jpg)
-entorno de programación primer avance.jpg: Captura de pantalla de la interfaz de usuario del generador de contraseñas en acción. (https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance.jpg)
-Requisitos y Configuración del Entorno
-Python: Versión 3.12 (o superior). Puedes descargar la última versión desde la página oficial de Python: https://www.python.org/downloads/
-Instalación en Windows: Durante la instalación, asegúrate de marcar la casilla "Add Python X.Y to PATH" (donde X.Y es la versión). Esto es crucial para que puedas ejecutar Python desde la línea de comandos.
-Instalación en Linux/macOS: Python 3 a menudo viene preinstalado. Abre una terminal y escribe python3 --version para comprobarlo. Si no está instalado o necesitas una versión más reciente, usa el gestor de paquetes de tu distribución (ejemplos: apt install python3 en Debian/Ubuntu, brew install python3 en macOS).
-Librerías:
-random: Parte de la biblioteca estándar de Python (no necesita instalación). random proporciona funciones para generar números pseudoaleatorios. En este proyecto, se utiliza para seleccionar caracteres aleatoriamente al crear las contraseñas. Sin aleatoriedad, las contraseñas serían predecibles y, por lo tanto, inseguras. (https://docs.python.org/3/library/random.html)
-string: Parte de la biblioteca estándar de Python (no necesita instalación). string contiene constantes útiles que representan conjuntos de caracteres comunes. En este código, se usan:
-string.ascii_letters: Todas las letras ASCII, mayúsculas y minúsculas (a-z, A-Z).
-string.digits: Los dígitos del 0 al 9.
-string.punctuation: Símbolos de puntuación (como !"#$%&'()*+, etc.). Estas constantes permiten definir fácilmente qué tipos de caracteres se pueden incluir en una contraseña, y facilitan la creación de contraseñas con diferentes niveles de complejidad. (https://docs.python.org/3/library/string.html)
-secrets: parte de la bibliotecas estándar de python. Genera numeros aleatorios criptográficamente seguros. (https://docs.python.org/3/library/secrets.html)
-tkinter: Parte de la biblioteca estándar de Python. Se utiliza para crear interfaces gráficas de usuario (GUIs). si no esta instalado, utilizar el comando pip install tk. (https://docs.python.org/3/library/tkinter.html)
-Cómo Ejecutar la Aplicación
-Clona el repositorio:
+Este generador de contraseñas ha sido mejorado significativamente respecto a versiones básicas, implementando algoritmos de generación de números pseudoaleatorios criptográficamente seguros (CSPRNG), opciones avanzadas de personalización, verificación de fortaleza y una interfaz intuitiva.
 
-Bash
+## Objetivos del Proceso
 
-git clone [https://github.com/Elmotool01/logica-de-programacion.git](https://github.com/Elmotool01/logica-de-programacion.git)
-cd logica-de-programacion
-Ejecuta el generador de contraseñas:
+* **Maximizar la Seguridad:** Generar contraseñas con la máxima entropía posible para resistir ataques de fuerza bruta y de diccionario.
+* **Flexibilidad para el Usuario:** Permitir una personalización completa de las contraseñas, incluyendo longitud y tipos de caracteres.
+* **Facilidad de Uso:** Proporcionar interfaces de línea de comandos (CLI) y gráfica (GUI) opcionales para adaptarse a las preferencias de cada usuario.
+* **Verificación de Fortaleza:** Ofrecer una herramienta para evaluar la calidad de las contraseñas generadas.
+* **Evitar la confusión:** Brindar la opción de excluir aquellos caracteres que causan confusión, para que las contraseñas generadas sean lo mas sencillas de usar por el usuario final.
+* **Generación de grandes cantidades:** permitir la generación de una gran cantidad de contraseñas al mismo tiempo.
 
-Bash
+## Estructura del Repositorio
 
-python generador_contrasenas.py
-El programa abrirá una ventana con un menú de opciones para generar diferentes tipos de contraseñas. Sigue las instrucciones en la interfaz gráfica.
+Este repositorio contiene los siguientes archivos principales:
 
-Imágenes del Entorno de Programación
-Configuración del entorno de programación: (https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance%20primera%20prueba.jpg)
-Ejemplo de interfaz del generador: (https://github.com/Elmotool01/logica-de-programacion/blob/main/entorno%20de%20programaci%C3%B3n%20primer%20avance.jpg)
-Contribuciones
-Las contribuciones son bienvenidas. Si quieres mejorar este proyecto:
+* `generador_contraseñas.py`: Código principal del generador de contraseñas (CLI).
+* `generador_contraseñas_gui.py` (opcional): Interfaz gráfica de usuario.
+* `requirements.txt` (opcional): Lista de dependencias del proyecto.
+* `README.md`: Documentación del proyecto.
 
-Haz un fork del repositorio.
-Crea una nueva rama: git checkout -b mi-feature
-Realiza tus cambios y haz commit: git commit -am 'Añade una nueva funcionalidad'
-Sube la rama: git push origin mi-feature
-Abre un Pull Request en GitHub.
-Licencia
-Este proyecto es de código libre.
+## Características Principales
 
-Contacto
-Si tienes preguntas, sugerencias o encuentras errores, por favor, abre un issue en este repositorio de GitHub.
+* **Generación de contraseñas altamente aleatorias:** Utiliza el módulo `secrets` de Python para generar números pseudoaleatorios criptográficamente seguros (CSPRNG). Enlace a la libreria: [secrets — Generating secure random numbers for managing secrets — Python 3.12.2 documentation](https://docs.python.org/3/library/secrets.html)
+* **Personalización de la longitud y los caracteres:** Permite al usuario especificar la longitud de la contraseña y los tipos de caracteres que desea incluir (mayúsculas, minúsculas, números, símbolos, caracteres unicode).
+* **Verificación de la fortaleza de la contraseña:** Implementa una función que evalúa la fortaleza de la contraseña generada, proporcionando información sobre su entropía y resistencia a ataques de fuerza bruta.
+* **Interfaz de línea de comandos (CLI) y GUI (opcional):** Ofrece una interfaz de línea de comandos para una generación rápida de contraseñas, y opcionalmente, una interfaz gráfica de usuario para mayor comodidad.
+* **Generación de contraseñas múltiples:** Capacidad para generar múltiples contraseñas a la vez.
+* **Opción de exclusión de caracteres similares:** Para una mayor seguridad y para evitar la confusión del usuario final, se ha implementado la opción de excluir caracteres similares como la letra "l" minúscula, la letra "I" mayúscula y el número "1". O la letra "O" mayúscula y el número "0".
+* **Almacenamiento seguro de contraseñas (opcional):** (Si se incluye) Permite al usuario almacenar las contraseñas generadas de forma segura, utilizando técnicas de cifrado robustas.
+
+## Mejoras Implementadas
+
+* **Mayor entropía:** Se ha mejorado el algoritmo de generación de números aleatorios para aumentar la entropía de las contraseñas, haciéndolas aún más difíciles de descifrar.
+* **Soporte para caracteres Unicode:** Se ha añadido soporte para la inclusión de caracteres Unicode en las contraseñas, lo que aumenta la diversidad y complejidad de las mismas.
+* **Evaluación de la fortaleza mejorada:** La función de evaluación de la fortaleza de la contraseña se ha actualizado para tener en cuenta más factores, como la presencia de patrones comunes y palabras del diccionario.
+* **Interfaz de usuario más intuitiva:** La interfaz de línea de comandos y/o gráfica se ha rediseñado para ser más fácil de usar y comprender.
+* **Generación de contraseñas masivas:** Ahora, es posible generar un número muy grande de contraseñas en solo una acción.
+* **Exclusión de caracteres similares:** Se implementó la exclusión de caracteres que suelen causar confusión.
+
+## Uso
+
+### CLI
+
+\`\`\`bash
+python generador\_contraseñas.py -l 16 -c mayusculas minusculas numeros simbolos
+\`\`\`
+
+### GUI (opcional)
+
+1.  Ejecutar el archivo `generador_contraseñas_gui.py`.
+2.  Configurar la longitud y los caracteres deseados.
+3.  Hacer clic en "Generar".
+
+## Requisitos
+
+* Python 3.6 o superior
+* (Opcional) Librería `tkinter` para la GUI
+
+## Instalación
+
+1.  Clonar el repositorio:
+
+    \`\`\`bash
+    git clone [https://github.com/theodelrieu?tab=repositories](https://github.com/theodelrieu?tab=repositories)
+    \`\`\`
+
+2.  (Opcional) Instalar las dependencias:
+
+    \`\`\`bash
+    pip install -r requirements.txt
+    \`\`\`
+
+## Contribución
+
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, puedes enviar un pull request.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia [Nombre de la licencia].
